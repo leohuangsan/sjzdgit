@@ -1,0 +1,7 @@
+E:\SJZD-ele\SJZDProject2017111401\SJZDEyes\GlobalTool\bin\Debug\GlobalTool.dll
+E:\SJZD-ele\SJZDProject2017111401\SJZDEyes\GlobalTool\bin\Debug\GlobalTool.pdb
+E:\SJZD-ele\SJZDProject2017111401\SJZDEyes\GlobalTool\bin\Debug\USB3WindowsAPI.dll
+E:\SJZD-ele\SJZDProject2017111401\SJZDEyes\GlobalTool\bin\Debug\USB3WindowsAPI.pdb
+E:\SJZD-ele\SJZDProject2017111401\SJZDEyes\GlobalTool\obj\Debug\GlobalTool.dll
+E:\SJZD-ele\SJZDProject2017111401\SJZDEyes\GlobalTool\obj\Debug\GlobalTool.pdb
+E:\SJZD-ele\SJZDProject2017111401\SJZDEyes\GlobalTool\obj\Debug\GlobalTool.csprojResolveAssemblyReference.cache

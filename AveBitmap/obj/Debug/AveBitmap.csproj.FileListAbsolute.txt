@@ -1,0 +1,5 @@
+E:\SJZD-ele\SJZDProject2017120601-opencv\SJZDEyes\AveBitmap\bin\Debug\AveBitmap.dll
+E:\SJZD-ele\SJZDProject2017120601-opencv\SJZDEyes\AveBitmap\bin\Debug\AveBitmap.pdb
+E:\SJZD-ele\SJZDProject2017120601-opencv\SJZDEyes\AveBitmap\obj\Debug\AveBitmap.dll
+E:\SJZD-ele\SJZDProject2017120601-opencv\SJZDEyes\AveBitmap\obj\Debug\AveBitmap.pdb
+E:\SJZD-ele\SJZDProject2017120601-opencv\SJZDEyes\AveBitmap\obj\Debug\AveBitmap.csprojResolveAssemblyReference.cache

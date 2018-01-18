@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3B1EA378-32EC-4576-966B-C8F277A598C2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SJZDEyes</RootNamespace>
+    <AssemblyName>SJZDEyes</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AveBitmap, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\AveBitmap\bin\x64\Debug\AveBitmap.dll</HintPath>
+    </Reference>
+    <Reference Include="ConfigCPUCore">
+      <HintPath>..\ConfigCPUCore\bin\Debug\ConfigCPUCore.dll</HintPath>
+    </Reference>
+    <Reference Include="DBHelper, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DBHelper\bin\Debug\DBHelper.dll</HintPath>
+    </Reference>
+    <Reference Include="Emgu.CV">
+      <HintPath>..\ShowAllLines\bin\Debug\Emgu.CV.dll</HintPath>
+    </Reference>
+    <Reference Include="Emgu.CV.UI">
+      <HintPath>..\ShowAllLines\bin\Debug\Emgu.CV.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Emgu.Util">
+      <HintPath>..\ShowAllLines\bin\Debug\Emgu.Util.dll</HintPath>
+    </Reference>
+    <Reference Include="GlobalTools">
+      <HintPath>..\GlobalTool\bin\Debug\GlobalTools.dll</HintPath>
+    </Reference>
+    <Reference Include="Log">
+      <HintPath>..\Log\bin\Debug\Log.dll</HintPath>
+    </Reference>
+    <Reference Include="NationalInstruments.Common, Version=15.0.40.49154, Culture=neutral, PublicKeyToken=dc6ad606294fc298, processorArchitecture=MSIL" />
+    <Reference Include="NationalInstruments.UI, Version=15.0.45.49153, Culture=neutral, PublicKeyToken=4febd62461bf11a4, processorArchitecture=MSIL" />
+    <Reference Include="NationalInstruments.UI.WindowsForms, Version=15.0.45.49153, Culture=neutral, PublicKeyToken=4febd62461bf11a4, processorArchitecture=MSIL" />
+    <Reference Include="NIIntensityGraph">
+      <HintPath>..\NIIntensityGraph\bin\Debug\NIIntensityGraph.dll</HintPath>
+    </Reference>
+    <Reference Include="OCT">
+      <HintPath>..\OCT\bin\Debug\OCT.dll</HintPath>
+    </Reference>
+    <Reference Include="ShareMemory">
+      <HintPath>..\ShareMemory\bin\Debug\ShareMemory.dll</HintPath>
+    </Reference>
+    <Reference Include="Skin">
+      <HintPath>..\Skin\bin\Debug\Skin.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UserControls, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\UserControls\bin\Debug\UserControls.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AvePreviewFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AvePreviewFrm.Designer.cs">
+      <DependentUpon>AvePreviewFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CameraControlFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CameraControlFrm.Designer.cs">
+      <DependentUpon>CameraControlFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CameraInfoFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CameraInfoFrm.Designer.cs">
+      <DependentUpon>CameraInfoFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FirstLineShowFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FirstLineShowFrm.Designer.cs">
+      <DependentUpon>FirstLineShowFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainFrm.Designer.cs">
+      <DependentUpon>MainFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewScanFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewScanFrm.Designer.cs">
+      <DependentUpon>NewScanFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ShowAveMapFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowAveMapFrm.Designer.cs">
+      <DependentUpon>ShowAveMapFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShowImageDataFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowImageDataFrm.Designer.cs">
+      <DependentUpon>ShowImageDataFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemSettingFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemSettingFrm.Designer.cs">
+      <DependentUpon>SystemSettingFrm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AvePreviewFrm.resx">
+      <DependentUpon>AvePreviewFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CameraControlFrm.resx">
+      <DependentUpon>CameraControlFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CameraInfoFrm.resx">
+      <DependentUpon>CameraInfoFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FirstLineShowFrm.resx">
+      <DependentUpon>FirstLineShowFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainFrm.resx">
+      <DependentUpon>MainFrm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewScanFrm.resx">
+      <DependentUpon>NewScanFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShowAveMapFrm.resx">
+      <DependentUpon>ShowAveMapFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShowImageDataFrm.resx">
+      <DependentUpon>ShowImageDataFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemSettingFrm.resx">
+      <DependentUpon>SystemSettingFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\USB3WindowsAPI\USB3WinAPI.csproj">
+      <Project>{93f7d0e6-5524-48c0-8a6b-ef7ff67b23c7}</Project>
+      <Name>USB3WinAPI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UserRight\UserRight.csproj">
+      <Project>{d2d53c85-1a5d-43ac-9384-f1cea70c7f27}</Project>
+      <Name>UserRight</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\参数设置.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Green.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\新增用户1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\病人检索.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CompayLog.PNG" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

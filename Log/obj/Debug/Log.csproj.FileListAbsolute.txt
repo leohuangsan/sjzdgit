@@ -1,0 +1,5 @@
+E:\SJZD-ele\SJZDProject2017121901-opencv\SJZDEyes\Log\obj\Debug\Log.csprojResolveAssemblyReference.cache
+E:\SJZD-ele\SJZDProject2017121901-opencv\SJZDEyes\Log\bin\Debug\Log.dll
+E:\SJZD-ele\SJZDProject2017121901-opencv\SJZDEyes\Log\bin\Debug\Log.pdb
+E:\SJZD-ele\SJZDProject2017121901-opencv\SJZDEyes\Log\obj\Debug\Log.dll
+E:\SJZD-ele\SJZDProject2017121901-opencv\SJZDEyes\Log\obj\Debug\Log.pdb
